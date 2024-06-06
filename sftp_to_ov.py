@@ -1,7 +1,7 @@
 import sys
 import subprocess
 
-subprocess.check_call([sys.executable, '-m', '-H', 'pip', 'install', '-r', 'python_dependencies.txt'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', '--no-cache-dir, '-r', 'python_dependencies.txt'])
 
 
 import onevizion

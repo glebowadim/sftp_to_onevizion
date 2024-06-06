@@ -1,9 +1,5 @@
 import sys
 import subprocess
-
-subprocess.check_call([sys.executable, '-m', '-H', 'pip', 'install', '-H', '-r', 'python_dependencies.txt'])
-
-
 import onevizion
 import argparse
 import pysftp
